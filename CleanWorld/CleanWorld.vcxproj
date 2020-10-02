@@ -78,8 +78,13 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
+<<<<<<< HEAD
     <IncludePath>C:\Users\Dimo\Desktop\Hack2020\SDL2_image-2.0.1\include;C:\Users\Dimo\Desktop\Hack2020\SDL2\include;$(IncludePath)</IncludePath>
     <LibraryPath>C:\Users\Dimo\Desktop\Hack2020\SDL2_image-2.0.1\lib\x64;C:\Users\Dimo\Desktop\Hack2020\SDL2\lib\x64;$(LibraryPath)</LibraryPath>
+=======
+    <IncludePath>C:\Users\Radina\OneDrive\Работен плот\New folder\SDL2_image-2.0.1\include;C:\Users\Radina\OneDrive\Работен плот\New folder\SDL2\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Radina\OneDrive\Работен плот\New folder\SDL2_image-2.0.1\lib\x64;C:\Users\Radina\OneDrive\Работен плот\New folder\SDL2\lib\x64;$(LibraryPath)</LibraryPath>
+>>>>>>> ef37ec40bc548b39037137c05f7dafb9cc013a38
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
@@ -118,12 +123,20 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+<<<<<<< HEAD
       <AdditionalIncludeDirectories>C:\Users\Dimo\Desktop\Hack2020\SDL2_image-2.0.1\include;C:\Users\Dimo\Desktop\Hack2020\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+=======
+      <AdditionalIncludeDirectories>C:\Users\Radina\OneDrive\Работен плот\New folder\SDL2_image-2.0.1\include;C:\Users\Radina\OneDrive\Работен плот\New folder\SDL2\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+>>>>>>> ef37ec40bc548b39037137c05f7dafb9cc013a38
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+<<<<<<< HEAD
       <AdditionalLibraryDirectories>C:\Users\Dimo\Desktop\Hack2020\SDL2_image-2.0.1\lib\x64;C:\Users\Dimo\Desktop\Hack2020\SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+=======
+      <AdditionalLibraryDirectories>C:\Users\Radina\OneDrive\Работен плот\New folder\SDL2_image-2.0.1\lib\x64;C:\Users\Radina\OneDrive\Работен плот\New folder\SDL2\lib\x64;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+>>>>>>> ef37ec40bc548b39037137c05f7dafb9cc013a38
       <AdditionalDependencies>SDL2.lib;SDL2main.lib;SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -146,6 +159,10 @@
   <ItemGroup>
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="TextureManager.h" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h" />

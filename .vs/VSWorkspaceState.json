@@ -3,6 +3,10 @@
     "",
     "\\CleanWorld"
   ],
+<<<<<<< HEAD
   "SelectedNode": "\\CleanWorld\\Game.cpp",
+=======
+  "SelectedNode": "\\CleanWorld\\TextureManager.h",
+>>>>>>> ef37ec40bc548b39037137c05f7dafb9cc013a38
   "PreviewInSolutionExplorer": false
 }

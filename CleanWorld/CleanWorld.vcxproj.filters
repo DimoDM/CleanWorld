@@ -18,12 +18,20 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="Game.cpp">
+=======
+    <ClCompile Include="TextureManager.cpp">
+>>>>>>> ef37ec40bc548b39037137c05f7dafb9cc013a38
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClInclude Include="Game.h">
+=======
+    <ClInclude Include="TextureManager.h">
+>>>>>>> ef37ec40bc548b39037137c05f7dafb9cc013a38
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
